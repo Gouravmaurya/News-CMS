@@ -1,0 +1,209 @@
+/* State Page Styles - Similar to Category but with state-specific colors */
+.state-page {
+    padding: 20px 0;
+}
+
+.state-header {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    padding: 60px 0 40px;
+    margin-bottom: 40px;
+}
+
+.state-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.state-meta {
+    display: flex;
+    gap: 20px;
+    font-size: 0.95rem;
+}
+
+.state-meta span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Reuse article grid styles from category.css */
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.article-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.article-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.article-card:hover .article-image img {
+    transform: scale(1.05);
+}
+
+.video-badge, .external-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.article-content {
+    padding: 20px;
+}
+
+.article-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 0.85rem;
+}
+
+.article-meta .category {
+    background: #f5576c;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.article-meta .date {
+    color: #666;
+}
+
+.article-title {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.article-title a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-title a:hover {
+    color: #f5576c;
+}
+
+.article-description {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.article-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.views {
+    color: #999;
+    font-size: 0.85rem;
+}
+
+.read-more {
+    color: #f5576c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.no-articles {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.no-articles i {
+    font-size: 4rem;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.no-articles h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.no-articles .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #f5576c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.page-link {
+    padding: 10px 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.page-link:hover {
+    background: #f5576c;
+    color: white;
+    border-color: #f5576c;
+}
+
+.page-link.active {
+    background: #f5576c;
+    color: white;
+    border-color: #f5576c;
+}
+
+@media (max-width: 768px) {
+    .state-header h1 {
+        font-size: 2rem;
+    }
+    
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+}

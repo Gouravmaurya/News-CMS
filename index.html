@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"
+        integrity="sha512-HHsOC+h3najWR7OKiGZtfhFIEzg5VRIPde0kB0bG2QRidTQqf+sbfcxCTB16AcFB93xMjnBIKE29/MjdzXE+qw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>News Website</title>
+</head>
+
+<body>
+    <!-- Top Header Bar -->
+    <div class="topHeader">
+        <div class="topHeader-left">
+            <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>n9india1@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <span>+1 234 567 8900</span>
+            </div>
+        </div>
+        <div class="topHeader-right">
+            <a href="https://www.instagram.com/news9india_/" target="_blank" class="social-icon"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com/N9india" target="_blank" class="social-icon"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/@N9India" target="_blank" class="social-icon"><i
+                    class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.snapchat.com/add/news9india?invite_id=hZ1NTtUe&locale=en_US&share_id=BPq5HybqSqKx2DnfvMdxuw&sid=46c2ea40ab6845e09821993c14d9d2ed"
+                target="_blank" class="social-icon"><i class="fa-brands fa-snapchat"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <div class="header">
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="News Logo">
+        </div>
+        <div class="header-right">
+            <div class="search-section">
+                <input type="text" placeholder="Search news...">
+                <button><i class="fa-solid fa-search"></i></button>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#live">Live</a></li>
+                    <li class="dropdown">
+                        <a href="#states">States <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu states-grid">
+                            <li><a href="#andhra-pradesh">Andhra Pradesh</a></li>
+                            <li><a href="#arunachal-pradesh">Arunachal Pradesh</a></li>
+                            <li><a href="#assam">Assam</a></li>
+                            <li><a href="#bihar">Bihar</a></li>
+                            <li><a href="#chhattisgarh">Chhattisgarh</a></li>
+                            <li><a href="#goa">Goa</a></li>
+                            <li><a href="#gujarat">Gujarat</a></li>
+                            <li><a href="#haryana">Haryana</a></li>
+                            <li><a href="#himachal-pradesh">Himachal Pradesh</a></li>
+                            <li><a href="#jharkhand">Jharkhand</a></li>
+                            <li><a href="#karnataka">Karnataka</a></li>
+                            <li><a href="#kerala">Kerala</a></li>
+                            <li><a href="#madhya-pradesh">Madhya Pradesh</a></li>
+                            <li><a href="#maharashtra">Maharashtra</a></li>
+                            <li><a href="#manipur">Manipur</a></li>
+                            <li><a href="#meghalaya">Meghalaya</a></li>
+                            <li><a href="#mizoram">Mizoram</a></li>
+                            <li><a href="#nagaland">Nagaland</a></li>
+                            <li><a href="#odisha">Odisha</a></li>
+                            <li><a href="#punjab">Punjab</a></li>
+                            <li><a href="#rajasthan">Rajasthan</a></li>
+                            <li><a href="#sikkim">Sikkim</a></li>
+                            <li><a href="#tamil-nadu">Tamil Nadu</a></li>
+                            <li><a href="#telangana">Telangana</a></li>
+                            <li><a href="#tripura">Tripura</a></li>
+                            <li><a href="#uttar-pradesh">Uttar Pradesh</a></li>
+                            <li><a href="#uttarakhand">Uttarakhand</a></li>
+                            <li><a href="#west-bengal">West Bengal</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#travel">Travel</a></li>
+                    <li><a href="#health">Health</a></li>
+                    <li><a href="#entertainment">Entertainment</a></li>
+                    <li><a href="#politics">Politics</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bar">
+            <i class="open fa-solid fa-bars-staggered"></i>
+            <i class="close fa-solid fa-xmark"></i>
+        </div>
+    </div>
+
+    <!-- Hero Slider Section -->
+    <div class="heroSlider">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200" alt="News 1">
+                <div class="slide-content">
+                    <h1>Stay Updated with Latest News</h1>
+                    <p>Your trusted source for breaking news and top stories</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=1200" alt="News 2">
+                <div class="slide-content">
+                    <h1>Global Coverage</h1>
+                    <p>News from around the world at your fingertips</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1200" alt="News 3">
+                <div class="slide-content">
+                    <h1>Real-Time Updates</h1>
+                    <p>Get the latest stories as they happen</p>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slider-btn next" onclick="changeSlide(1)">&#10095;</button>
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="aboutUs">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>📺🇮🇳 <strong>N9 India – Real News. Real Voices. Real India.</strong> 🔥</p>
+                    <p>Welcome to N9 India, where every video brings you closer to the truth, culture, and spirit of
+                        India. 📰 From breaking news to bold opinions, from hidden heroes to hot debates – we cover the
+                        stories that matter!</p>
+                    <p><strong>🎥 What You'll Get:</strong></p>
+                    <ul class="about-features">
+                        <li>✅ Latest Indian News & Headlines</li>
+                        <li>✅ Deep Dives into Politics & Current Affairs</li>
+                        <li>✅ Inspiring Stories of Real Indians</li>
+                        <li>✅ Culture, Traditions & Social Issues</li>
+                        <li>✅ Powerful Interviews & Street Reactions</li>
+                    </ul>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10M+</h3>
+                            <p>Monthly Readers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+
+                            <p>Journalists</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>News Coverage</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="topHeadlines">
+        <div class="left">
+            <div class="title">
+                <h2>🔴 Live News</h2>
+            </div>
+            <div class="youtube-live" id="breakingImg">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I1JL72pbRq4?si=27ELXhKHHso91bcA"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="text" id="breakingNews">
+                <div class="title">
+                    <a href="https://www.youtube.com/@N9India/live" target="_blank">
+                        <h2>Watch N9 India Live 24/7</h2>
+                    </a>
+                </div>
+                <div class="description">
+                    Stay updated with real-time news coverage from N9 India. Breaking news, live updates, and in-depth
+                    analysis - all streaming live!
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="title">
+                <h2>Top Headlines</h2>
+            </div>
+            <div class="topNews">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="page2">
+        <div class="news" id="sportsNews">
+            <div class="title">
+                <h2>Sports News</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=400" alt="Cricket">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>India Wins Cricket World Cup Final</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400" alt="Athletics">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>Neeraj Chopra Breaks World Record in Javelin</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400" alt="Football">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>Indian Football Team Qualifies for World Cup</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=400" alt="Badminton">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>PV Sindhu Wins Gold at Olympics</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=400" alt="IPL">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>IPL 2025: Mumbai Indians Crowned Champions</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news" id="businessNews">
+            <div class="title">
+                <h2>Business News</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400"
+                            alt="Stock Market">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>Indian Stock Market Reaches All-Time High</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400" alt="Startup">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>Startup Funding in India Crosses $50 Billion</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400" alt="Currency">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>RBI Announces New Digital Currency Policy</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=400" alt="Economy">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>Indian Economy Grows at 8% This Quarter</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400"
+                            alt="Tech Companies">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>Major Tech Companies Expand Operations in India</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news" id="techNews">
+            <div class="title">
+                <h2>Technology News</h2>
+            </div>
+            <div class="newsBox">
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400" alt="AI">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>India Launches Advanced AI Research Center</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=400" alt="5G">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>5G Network Rollout Completed Across Major Cities</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=400" alt="Space">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>Indian Space Mission Successfully Lands on Mars</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400" alt="Quantum">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>New Quantum Computing Breakthrough by Indian Scientists</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsCard">
+                    <div class="img">
+                        <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=400" alt="EV">
+                    </div>
+                    <div class="text">
+                        <div class="title">
+                            <a href="#" target="_blank">
+                                <p>India's First Electric Vehicle Manufacturing Hub Opens</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="/images/logo.jpg" alt="News Logo">
+                    <p>Your trusted source for breaking news and top stories from around the world.</p>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#live">Live News</a></li>
+                    <li><a href="#travel">Travel</a></li>
+                    <li><a href="#health">Health</a></li>
+                    <li><a href="#entertainment">Entertainment</a></li>
+                    <li><a href="#politics">Politics</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#sportsNews">Sports</a></li>
+                    <li><a href="#businessNews">Business</a></li>
+                    <li><a href="#techNews">Technology</a></li>
+                    <li><a href="#world">World News</a></li>
+                    <li><a href="#local">Local News</a></li>
+                    <li><a href="#opinion">Opinion</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+                    <li><i class="fa-solid fa-envelope"></i>n9india1@gmail.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Mumbai, India</li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/news9india_/" target="_blank" title="Follow us on Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com/N9india" target="_blank" title="Like our Facebook page"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@N9India" target="_blank"
+                        title="Subscribe to our YouTube channel"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.snapchat.com/add/news9india?invite_id=hZ1NTtUe&locale=en_US&share_id=BPq5HybqSqKx2DnfvMdxuw&sid=46c2ea40ab6845e09821993c14d9d2ed"
+                        target="_blank" title="Add us on Snapchat"><i class="fa-brands fa-snapchat"></i></a>
+                </div>
+            </div>
+            <div class="footer-column newsletter-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get the latest news updates</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 News Website. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
